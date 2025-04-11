@@ -1,10 +1,19 @@
 #include <iostream>
+#include <string>
 using namespace std;
-// main: generate some simple output
+// main: requests the users name and ages and then responds with a simple welcome message.
 int main () {
-  string fullName;
+  string name;
+  int age;
+
   cout << "Enter your full name: ";
-  getline(cin, fullName);
-  cout << "Hello, " << fullName << "!" << endl;
+  getline(cin, name);
+
+  cout << "Enter your age: ";
+  cin >> age;
+
+  cout << "Hello, " << name << "! ";
+  cout << "You are " << age << " years old." << endl;
+
   return 0;
 }
