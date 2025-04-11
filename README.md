@@ -13,16 +13,16 @@ Going back to school on the GI Bill to earn an AAS in Computer Science to work m
 
 ## Programming Knowledge
 The programming languages I am familiar with are:
-- * HTML
-- * CSS
+- *HTML
+- *CSS
 - JavaScript
-- ** Python
-- ** Assembly
+- **Python
+- **Assembly
 
-* not really a "programming language"
-** limited experience, learned years ago and forgot almost everything I was taught
+*not really a "programming language"
+**limited experience, learned years ago and forgot almost everything I was taught
 
-I have been programming of and on for 20 years.
+I have been programming off and on for 20 years.
 
 ## Favorites
 I enjoy video games, books, comics, movies and TV shows.
