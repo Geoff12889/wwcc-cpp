@@ -3,10 +3,10 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
 # Target executable
-TARGET = hello_git
+TARGET = assignment1-helloGit
 
 # Source files
-SRCS = hello_git.cpp
+SRCS = assignment1-helloGit.cpp
 
 # Build rule
 $(TARGET): $(SRCS)
