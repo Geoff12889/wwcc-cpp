@@ -20,21 +20,57 @@ int main() {
     std::cin >> num;
     std::cout << endl;
     if (num == 9) {
-        std::cout << "9 8 7 6 5 4 3 2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
+        std::cout << "1 2 3 4" << endl;
+        std::cout << "1 2 3 4 5" << endl;
+        std::cout << "1 2 3 4 5 6" << endl;
+        std::cout << "1 2 3 4 5 6 7" << endl;
+        std::cout << "1 2 3 4 5 6 7 8" << endl;
+        std::cout << "1 2 3 4 5 6 7 8 9" << endl;
     } else if (num == 8) {
-        std::cout << "8 7 6 5 4 3 2 1" << endl;
-    } else if (num == 7) {
-        std::cout << "7 6 5 4 3 2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
+        std::cout << "1 2 3 4" << endl;
+        std::cout << "1 2 3 4 5" << endl;
+        std::cout << "1 2 3 4 5 6" << endl;
+        std::cout << "1 2 3 4 5 6 7" << endl;
+        std::cout << "1 2 3 4 5 6 7 8" << endl;    }
+    else if (num == 7) {
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
+        std::cout << "1 2 3 4" << endl;
+        std::cout << "1 2 3 4 5" << endl;
+        std::cout << "1 2 3 4 5 6" << endl;
+        std::cout << "1 2 3 4 5 6 7" << endl;
     } else if (num == 6) {
-        std::cout << "6 5 4 3 2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
+        std::cout << "1 2 3 4" << endl;
+        std::cout << "1 2 3 4 5" << endl;
+        std::cout << "1 2 3 4 5 6" << endl;
     } else if (num == 5) {
-        std::cout << "5 4 3 2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
+        std::cout << "1 2 3 4" << endl;
+        std::cout << "1 2 3 4 5" << endl;
     } else if (num == 4) {
-        std::cout << "4 3 2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
+        std::cout << "1 2 3 4" << endl;
     } else if (num == 3) {
-        std::cout << "3 2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
+        std::cout << "1 2 3" << endl;
     } else if (num == 2) {
-        std::cout << "2 1" << endl;
+        std::cout << "1" << endl;
+        std::cout << "1 2" << endl;
     } else if (num == 1) {
         std::cout << "1" << endl;
     } else {

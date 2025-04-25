@@ -29,16 +29,16 @@ int main(){
     std::cin >> temp;
     std::cout << endl << "Enter unit (C for Celsius, F for Fahrenheit): ";
     std::cin >> originalUnit;
-    if (originalUnit == 'F') {
+    if (originalUnit == 'F' || originalUnit == 'f') {
         result = temp - 32;
         result = result * 5/9;
         convertedUnit = 'C';
-        std::cout << endl << temp << originalUnit << " is equal to " << result << convertedUnit << endl;
-    } else if (originalUnit == 'C') {
+        std::cout << endl << temp << "F is equal to " << result << convertedUnit << endl;
+    } else if (originalUnit == 'C' || originalUnit == 'c') {
         result = temp * 9/5;
         result = result + 32;
         convertedUnit = 'F';
-        std::cout << endl << temp << originalUnit << " is equal to " << result << convertedUnit << endl;
+        std::cout << endl << temp << "C is equal to " << result << convertedUnit << endl;
     } else {
       std::cout << "That is an invalid entry" << endl;
     }
