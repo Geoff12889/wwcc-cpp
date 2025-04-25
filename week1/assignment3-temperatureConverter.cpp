@@ -33,12 +33,15 @@ int main(){
         result = temp - 32;
         result = result * 5/9;
         convertedUnit = 'C';
-    } else {
+        std::cout << endl << temp << originalUnit << " is equal to " << result << convertedUnit << endl;
+    } else if (originalUnit == 'C') {
         result = temp * 9/5;
         result = result + 32;
         convertedUnit = 'F';
-    };
-    std::cout << endl << temp << originalUnit << "is equal to " << result << convertedUnit << endl;
+        std::cout << endl << temp << originalUnit << " is equal to " << result << convertedUnit << endl;
+    } else {
+      std::cout << "That is an invalid entry" << endl;
+    }
 
     return 0;
 }
