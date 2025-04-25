@@ -31,7 +31,11 @@ int main() {
   cout << "Results:\nSum: " << num1 << " + " << num2 << " = " << sum << endl;
   cout << "Difference: " << num1 << " - " << num2 << " = " << diff << endl;
   cout << "Product: " << num1 << " * " << num2 << " = " << prod << endl;
-  cout << "Quotient: " << num1 << " / " << num2 << " = " << quot << endl;  
+  if (num2 == 0) {
+    cout << "Cannot divide by 0" << endl;
+  } else {
+    cout << "Quotient: " << num1 << " / " << num2 << " = " << quot << endl;  
+  }
 
   return 0;
 }
