@@ -57,8 +57,8 @@ int main() {
         i++;
     }
     
-    float percHeads = (heads / flips) * 100.00;
-    float percTails = (tails / flips) * 100.00;
+    float percHeads = (float)heads / (float)flips * 100.00;
+    float percTails = (float)tails / (float)flips * 100.00;
 
     std::cout << "Results:" << endl;
     std::cout << "Heads: " << heads << " (" << percHeads << "%)" << endl;
