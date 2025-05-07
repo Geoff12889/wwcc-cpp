@@ -55,10 +55,8 @@ int main() {
             {
                 // printf("   | %i |", j);
                 if (j < 10) {
-                    cout << setw(width + 4);
                     cout << "     |   " << j << " |";
                 } else {
-                    cout << setw(width + 4);
                     cout << "     |  " << j << " |";
                 }
             } else if (i == start && j != end + 1)
