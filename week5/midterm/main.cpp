@@ -2,8 +2,7 @@
 #include <string>
 using namespace std;
 
-// creates question struct
-struct question
+struct Question
 {
     string question_text;
     string options[4];
@@ -12,13 +11,13 @@ struct question
 };
 
 void show_menu(void);
-void run_quiz(question[], int);
+void run_quiz(Question[], int);
 void display_score(int, int);
 
 int main(void)
 {
-    // questions for the quiz
-    question quiz[3] = {
+    const int QUIZLENGTH = 3;
+    Question quiz[QUIZLENGTH] = {
         {"What is the capital of France?", {"A) Paris", "B) London", "C) Rome", "D) Berlin"}, 'A', 10},
         {"Which planet is known as the Red Planet?", {"A) Earth", "B) Venus", "C) Mars", "D) Jupiter"}, 'C', 10},
         {"What is 5 + 7?", {"A) 10", "B) 11", "C) 12", "D) 13"}, 'C', 10}
@@ -33,7 +32,7 @@ int main(void)
         switch(choice)
 	{
             case 1:
-                run_quiz(quiz, 3);
+                run_quiz(quiz, QUIZLENGTH);
                 break;
             case 2:
                 cout << "Exiting the game.\n" << endl;
@@ -55,16 +54,17 @@ void show_menu()
     cout << "Enter your choice: ";
 }
 
-void run_quiz(question questions[], int size)
+void run_quiz(Question questions[], int quizSize)
 {
     int score = 0;
     char user_answer;
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < quizSize; i++)
     {
 	// outputs the question
         cout << "\nQuestion " << (i + 1) << ": " << questions[i].question_text << endl;
-        for (int j = 0; j < 4; j++)
+	int numberOfOptions = 4;
+        for (int j = 0; j < numberOfOptions; j++)
 	{
 	    // outputs the four options
             cout << questions[i].options[j] << endl;
@@ -85,7 +85,7 @@ void run_quiz(question questions[], int size)
         }
     }
 
-    display_score(score, size * 10);
+    display_score(score, quizSize * 10);
 }
 
 void display_score(int score, int max_score) {
@@ -94,7 +94,11 @@ void display_score(int score, int max_score) {
     cout << percentage << "%\n";
 
     if (percentage >= 70.0)
+    {
         cout << "Great job!\n";
+    }
     else
+    {
         cout << "Study and try again.\n";
+    }
 }
