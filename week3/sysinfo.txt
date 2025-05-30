@@ -1,0 +1,26 @@
+
+                     ..'          geoffreywoytt@Geoffreys-MacBook-Pro-4
+                 ,xNMM.           -------------------------------------
+               .OMMMMo            OS: macOS Sequoia 15.4.1 arm64
+               lMM"               Host: MacBook Pro (16-inch, 2021)
+     .;loddo:.  .olloddol;.       Kernel: Darwin 24.4.0
+   cKMMMMMMMMMMNWMMMMMMMMMM0:     Uptime: 14 days, 6 hours, 38 mins
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.     Packages: 311 (brew), 24 (brew-cask)
+ XMMMMMMMMMMMMMMMMMMMMMMMX.       Shell: zsh 5.9
+;MMMMMMMMMMMMMMMMMMMMMMMM:        Display (Color LCD): 3456x2234 @ 120]
+:MMMMMMMMMMMMMMMMMMMMMMMM:        DE: Aqua
+.MMMMMMMMMMMMMMMMMMMMMMMMX.       WM: Quartz Compositor 278.4.7
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.     WM Theme: Multicolor (Dark)
+ 'XMMMMMMMMMMMMMMMMMMMMMMMMMMk    Font: .AppleSystemUIFont [System], H]
+  'XMMMMMMMMMMMMMMMMMMMMMMMMK.    Cursor: Fill - Black, Outline - Whit)
+    kMMMMMMMMMMMMMMMMMMMMMMd      Terminal: tmux 3.5a
+     ;KMMMMMMMWXXWMMMMMMMk.       CPU: Apple M1 Max (10) @ 3.23 GHz
+       "cooc*"    "*coo'"         GPU: Apple M1 Max (32) @ 1.30 GHz [I]
+                                  Memory: 40.59 GiB / 64.00 GiB (63%)
+                                  Swap: 1022.56 MiB / 2.00 GiB (50%)
+                                  Disk (/): 3.62 TiB / 3.63 TiB (100%)]
+                                  Local IP (en0): 192.168.1.211/24
+                                  Battery (bq40z651): 100% [AC connect]
+                                  Power Adapter: 140W
+                                  Locale: en_US.UTF-8
+
